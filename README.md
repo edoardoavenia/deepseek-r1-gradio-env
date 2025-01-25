@@ -29,6 +29,8 @@ Interactive environment to explore **DeepSeek-R1 14B** on **Google Colab**, feat
 2. Set T4 GPU runtime
 3. Run cells in order
 
+You can also find the Jupyter notebook in this repo: [deepseek_r1_gradio_env.ipynb](deepseek_r1_gradio_env.ipynb)
+
 ## 📋 Requirements
 - Google Colab (T4 GPU)
 - GPU RAM: 16GB

@@ -12,13 +12,13 @@
   <img src="https://logowik.com/content/uploads/images/deepseek-ai4760.logowik.com.webp" height="150"/>
   <img src="https://github.com/ollama/ollama/assets/3325447/0d0b44e2-8f4a-4e99-9b52-a5c1c741c8f7" height="150"/>
   <img src="https://logowik.com/content/uploads/images/gradio-app7465.logowik.com.webp" height="150"/>
-  <img src="https://raw.githubusercontent.com/langchain-ai/.github/main/profile/logo-light.svg#gh-dark-mode-only" height="145"/>
+  <img src="https://raw.githubusercontent.com/langchain-ai/.github/main/profile/logo-light.svg#gh-dark-mode-only" height="120"/>
 </div>
 
 Interactive environment to explore **DeepSeek-R1 14B** on **Google Colab**, featuring **Gradio** UI and **LangChain** pipelines, using **Ollama** as the model runtime.
 
 ## ✨ Features
-- DeepSeek-R1 14B (optimized for T4 GPU)
+- DeepSeek-R1 14B (largest model running on free T4 GPU)
 - Chat interface with Gradio
 - LangChain conversation pipeline
 - XML parsing for reasoning separation

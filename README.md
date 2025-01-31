@@ -15,10 +15,18 @@
   <img src="https://raw.githubusercontent.com/langchain-ai/.github/main/profile/logo-light.svg#gh-dark-mode-only" height="120"/>
 </div>
 
-Interactive environment to explore **DeepSeek-R1 14B** on **Google Colab**, featuring **Gradio** UI and **LangChain** pipelines, using **Ollama** as the model runtime.
+Interactive environment to explore **DeepSeek-R1** models on **Google Colab**, featuring **Gradio** UI and **LangChain** pipelines, using **Ollama** as the model runtime.
+
+Available models:
+- deepseek-r1:1.5b (default - distilled from Qwen-2.5-Math-1.5B)
+- deepseek-r1:7b (distilled from Qwen-2.5-Math-7B)  
+- deepseek-r1:8b (distilled from Llama-3.1-8B)
+- deepseek-r1:14b (distilled from Qwen-2.5-14B)
+
+All models are compatible with Google Colab's free T4 GPU (16GB).
 
 ## ✨ Features
-- DeepSeek-R1 14B (largest model running on free T4 GPU)
+- Multiple DeepSeek-R1 models (1.5B to 14B variants for free T4 GPU)
 - Chat interface with Gradio
 - LangChain conversation pipeline
 - XML parsing for reasoning separation
@@ -41,6 +49,7 @@ You can also find the Jupyter notebook in this repo: [deepseek_r1_gradio_env.ipy
 - [Gradio](https://github.com/gradio-app/gradio)
 - [LangChain](https://github.com/langchain-ai/langchain)
 - [Ollama](https://github.com/ollama/ollama)
+- [LLM-XML-Parser](https://github.com/edoardoavenia/llm-xml-parser)
 
 ---
 Created by [Edoardo Avenia](https://edoardoavenia.com/)
